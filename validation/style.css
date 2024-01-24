@@ -1,0 +1,126 @@
+.container{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;  
+    display: flex;
+    justify-content: space-evenly;
+}
+
+h2{
+    font-size: 2rem;
+    text-align: center;
+}
+
+label{
+    font-size: 1.5rem;
+}
+
+#f-name{
+    margin-left: 7rem;
+}
+
+#l-name{
+    margin-left: 7rem;
+}
+
+#e-mail{
+    margin-left: 4.7rem;
+}
+
+#city-place{
+    margin-left: 5rem;
+    width: 47%;
+}
+
+#state-place{
+    margin-left: 4rem;
+    width: 47%;
+}
+
+#zip{
+    margin-left: 12rem;
+}
+
+#password{
+  margin-left: 7.5rem;
+}
+
+#c-password{
+    margin-left: 1.6rem;
+}
+
+.place{
+    width: auto;
+    border-radius: 5px;
+    padding: 0.5rem;
+    border: 1px solid black;
+    font-size: 1.5rem;
+    margin-top: 1rem;    
+}
+
+input[type="text"],
+[type="text"],
+[type="email"],
+[type="password"],
+[type="number"],
+[type="radio"]
+
+{
+    border-radius: 5px;
+    padding: 0.5rem;
+    border: 1px solid black;
+    font-size: 1.5rem;
+    margin-top:1rem;
+}
+
+.btn-1{
+    width: 50%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 30px;
+    background-color: lightgreen;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 10px;  
+    margin-left: 14.5rem;
+}
+
+
+.form-control.success .place{
+    border-color: #2ecc71;
+}
+
+.form-control.success input{
+    border-color: #2ecc71;
+}
+
+.form-control.error input{
+    border-color: #ff0000;
+}
+
+.form-control small{
+    color: #ff0000;
+    visibility: hidden;
+}
+.form-control.error{
+    visibility: visible;
+}
+.tst {
+    color: #ff0000;
+   
+}
+
+.f-1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.two h2{
+   text-align: center;
+   border: 2px solid black;
+   border-radius: 3px;
+   padding: 10px;
+}
+
+
+

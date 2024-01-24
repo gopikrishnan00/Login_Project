@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form validation</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="one">
+            <h2>Register Form</h2>
+
+            <form class="myform" id="myform">
+
+
+                <div class="form-control">
+                    <label for="fname">First Name:</label>
+                    <input type="text" id="f-name" name="fname" placeholder="Enter First Name">
+                    <small class="tst">Error Message</small>
+                </div>
+
+                <div class="form-control">
+                    <label for="lname">Last Name:</label>
+                    <input type="text" id="l-name" name="lname" placeholder=" Enter Last Name">
+                    <small class="tst">Error Message</small>
+                </div>
+
+                <div class="form-control">
+                    <label for="email">Email address:</label>
+                    <input type="text" id="e-mail" name="email" placeholder="Enter email">
+                    <small class="tst">Error Message</small>
+                </div>
+
+                <div class="form-control">
+                    <label>Choose the Gender:</label>
+                    
+                    <input type="radio" name="gender" id="male" value="male">
+                    <label for="male">Male</label>
+                    <input type="radio" name="gender" id="female" value="female">
+                    <label for="female">Female</label>
+                    <input type="radio" name="gender" id="other" value="other">
+                    <label for="other">Other</label>
+                    <small class="tst">Error Message</small>
+                </div>
+
+                <div class="form-control">
+                    <label>Choose a City:</label>
+                    <select id="city-place" class="place">
+                        <option value="">Choose a City</option>
+                        <option value="chidhabaram">Chidhabaram</option>
+                        <option value="Neyveli">Neyveli</option>
+                        <option value="Panruti">Panruti</option>
+                    </select>
+                    <small class="tst">Error Message</small>
+                </div>
+
+                <div class="form-control">
+                    <label>Choose a State:</label>
+                    <select id="state-place" class="place">
+                        <option value="">Choose a state</option>
+                        <option value="Tamil Nadu">Tamil Nadu</option>
+                        <option value="Delhi">Delhi</option>
+                        <option value="Kerala">Kerala</option>
+                    </select>
+                    <small class="tst">Error Message</small>
+                </div>
+
+                <div class="form-control">
+                    <label>Zip:</label>
+                    <input type="number" id="zip" name="number" placeholder="Zip code">
+                    <small class="tst">Error Message</small>
+                </div>
+
+                <div class="form-control">
+                    <label>Password:</label>
+                    <input type="password" id="password" name="password" placeholder="Enter password">
+                    <small class="tst">Error Message</small>
+                </div>
+
+                <div class="form-control">
+                    <label>Confirm Password:</label>
+                    <input type="password" id="c-password" name="password" placeholder="Confirm enter password">
+                    <small class="tst">Error Message</small>
+                </div>
+
+                <button type="submit" class="btn-1">Click</button>
+
+
+            </form>
+        </div>
+
+        <div class="two">
+
+            <h2> Fetching Deatils</h2>
+
+            <div class="f-1">
+                <div class="f-2">
+                    <p>First Name: </p>
+                </div>
+                <div class="f-3">
+                    <p id="firstname"></p>
+                </div>
+            </div>
+
+            <div class="f-1">
+                <div class="f-2">
+                    <p>Last Name: </p>
+                </div>
+                <div class="f-3">
+                    <p id="lastname"></p>
+                </div>
+            </div>
+
+            <div class="f-1">
+                <div class="f-2">
+                    <p>Email:</p>
+                </div>
+                <div class="f-3">
+                    <p id="email-1"></p>
+                </div>
+            </div>
+
+            <div class="f-1">
+                <div class="f-2">
+                    <p>Gender:</p>
+                </div>
+                <div class="f-3">
+                    <p id="gender-1"></p>
+                </div>
+            </div>
+
+            <div class="f-1">
+                <div class="f-2">
+                    <p>City:</p>
+                </div>
+                <div class="f-3">
+                    <p id="city-1"></p>
+                </div>
+            </div>
+
+            <div class="f-1">
+                <div class="f-2">
+                    <p>State:</p>
+                </div>
+                <div class="f-3">
+                    <p id="state-1"></p>
+                </div>
+            </div>
+
+            <div class="f-1">
+                <div class="f-2">
+                    <p>Zip Code:</p>
+                </div>
+                <div class="f-3">
+                    <p id="zip-1"></p>
+                </div>
+            </div>
+
+            <div class="f-1">
+                <div class="f-2">
+                    <p>Password:</p>
+                </div>
+                <div class="f-3">
+                    <p id="password-1"></p>
+                </div>
+            </div>
+
+            <div class="f-1">
+                <div class="f-2">
+                    <p>Confirm Password:</p>
+                </div>
+                <div class="f-3">
+                    <p id="cpssword-1"></p>
+                </div>
+            </div>
+
+        </div>
+
+
+    </div>
+
+
+
+    <script src="script.js"></script>
+
+
+</body>
+
+</html>
