@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="one">
+
+            <form class="myform" id="myform">
+
+                <h2>Register Form</h2>
+
+                <div class="flex-1">
+                    <!-- <div class="flex-2"> -->
+
+                    <div class="form-control">
+                        <label for="fname">Name</label>
+                        <input type="text" id="name" name="name" class="name" placeholder="Enter Name">
+                        <small class="tst">Error Message</small>
+                    </div>
+
+                    <div class="form-control">
+                        <label for="email">Email</label>
+                        <input type="text" id="e-mail" name="email" class="name" placeholder="Enter email">
+                        <small class="tst">Error Message</small>
+                    </div>
+
+                    <div class="form-control">
+                        <label>Password</label>
+                        <input type="password" id="password" name="password" class="name" placeholder="Enter password">
+                        <small class="tst">Error Message</small>
+                    </div>
+
+                    <div class="form-control">
+                        <label>Confirm Password</label>
+                        <input type="password" id="c-password" name="password" class="name"
+                            placeholder="Enter Confirm password">
+                        <small class="tst">Error Message</small>
+                    </div>
+
+                    <!-- </div> -->
+
+                    <!-- <div class="flex-3"> -->
+
+                    <div class="form-control">
+                        <label>Phone</label>
+                        <input type="number" id="phone" name="number" class="name" placeholder="Phone Number">
+                        <small class="tst">Error Message</small>
+                    </div>
+
+                    <div class="form-control">
+                        <label>Choose a Country</label>
+                        <select name="state" id="countySel" size="1" class="place">
+                            <option value="" selected="selected">Select Country</option>
+                        </select>
+                        <small class="tst">Error Message</small>
+                    </div>
+
+                    <div class="form-control">
+                        <label>Choose a State</label>
+                        <select name="countrya" id="stateSel" size="1" class="place">
+                            <option value="" selected="selected"> Select State</option>
+                        </select>
+                        <small class="tst">Error Message</small>
+                    </div>
+
+                    <div class="form-control">
+                        <label>Choose a City</label>
+                        <select name="district" id="districtSel" size="1" class="place">
+                            <option value="" selected="selected">Select City</option>
+                        </select>
+                        <small class="tst">Error Message</small>
+                    </div>
+
+    
+                </div>
+
+
+                <button type="submit" class="btn-1">Click</button>
+
+                 
+
+
+            </form>
+        </div>
+
+
+
+
+        <div class="two">
+
+            <input type="text" name="search" id="search" placeholder="Search Box">
+
+            <table id="tabledata">
+                <thead>
+                    <tr>
+                        <th>Name
+                            <button class="id" onclick='sortTable(0)'><i class="fa fa-arrows-v"
+                                    aria-hidden="true"></i></button>
+                        </th>
+                        <th>Email Address
+                            <button class="id" onclick='sortTable(1)'><i class="fa fa-arrows-v"
+                                    aria-hidden="true"></i></button>
+                        </th>
+                        <th>Password
+                            <button class="id" onclick='sortTable(2)'><i class="fa fa-arrows-v"
+                                    aria-hidden="true"></i></button>
+                        </th>
+                        <th>Confirm Password
+                            <button class="id" onclick='sortTable(3)'><i class="fa fa-arrows-v"
+                                    aria-hidden="true"></i></button>
+                        </th>
+                        <th>Phone Number
+                            <button class="id" onclick='sortTable(4)'><i class="fa fa-arrows-v"
+                                    aria-hidden="true"></i></button>
+                        </th>
+                        <th>Country
+                            <button class="id" onclick='sortTable(5)'><i class="fa fa-arrows-v"
+                                    aria-hidden="true"></i></button>
+                        </th>
+                        <th>State
+                            <button class="id" onclick='sortTable(6)'><i class="fa fa-arrows-v"
+                                    aria-hidden="true"></i></button>
+                        </th>
+                        <th>City
+                            <button class="id" onclick='sortTable(7)'><i class="fa fa-arrows-v"
+                                    aria-hidden="true"></i></button>
+                        </th>
+                    </tr>
+                </thead>
+
+                <!-- <tbody id="hide">
+                    <tr id="show">
+                        <td>Not matched in table</td>
+                    </tr>
+                </tbody> -->
+             
+            </table>
+
+        </div>
+
+
+
+    </div>
+
+
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>

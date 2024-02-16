@@ -1,0 +1,164 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.myform{
+    background-color: rgb(236, 236, 107);
+    width: 80%;
+    height: auto;
+    padding: 1rem;
+    position: relative;
+    left: 10%;
+    margin-top: 0.5rem;
+}
+
+h2{
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.name{
+    display: block;
+}
+label{
+    font-size: 1.5rem;
+}
+
+.place {
+    display: block;
+}
+
+ input[type="text"],
+[type="email"],
+[type="password"],
+[type="number"]
+
+{
+    border-radius: 5px;
+    padding: 5px;
+    border: 1px solid black;
+    font-size: 1.2rem;
+}
+
+.place{
+    border-radius: 5px;
+    padding: 5px;
+    border: 1px solid black;
+    font-size: 1.2rem;
+} 
+
+#countySel{
+    width: 15.8rem;
+}
+
+#stateSel{
+    width: 15.8rem;
+}
+
+#districtSel{
+    width: 15.8rem;
+}
+
+/* .flex-2 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.flex-3 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    align-items: center;
+    margin-top: 1rem;
+} */
+
+.flex-1{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem 1.5rem;
+    align-items: center;
+    /* margin-top: 1rem; */
+}
+
+.btn-1{
+    width: 20%;
+    font-size: 1.5rem;
+    background-color: lightgreen;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 2rem; 
+    position: relative;
+    left: 40%;
+ }
+
+
+
+
+
+ .form-control.success .place{
+    border-color: #0000ff;
+}
+
+.form-control.success input{
+    border-color: #0000ff;
+}
+
+.form-control.error input{
+    border-color: #ff0000;
+}
+
+.form-control small{
+    visibility: hidden;
+}
+
+.form-control.error{
+    visibility: visible;
+}
+.tst {
+    color: #ff0000;
+   
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+table{
+    width: 100%;
+}
+
+th, td {
+    padding: 0.5rem;
+    text-align: center;
+  }
+
+.id{
+   float: right; 
+}
+
+#search{
+    outline: none;
+    padding: 0.5rem;
+    width: 300px;
+    border-radius: 1rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    float: right;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+
+#show{
+
+    display: none;
+    width: 100%;
+    position: relative;
+    left: 200%;
+}
